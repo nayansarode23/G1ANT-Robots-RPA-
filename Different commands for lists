@@ -1,0 +1,16 @@
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+♥list = cat❚dog❚lion❚tiger
+dialog ♥list
+♥list = cat❚dog❚lion❚tiger
+dialog ♥list⟦2⟧
+♥list = cat❚dog❚lion❚tiger
+dialog ♥list⟦count⟧
+♥list = cat❚dog❚lion❚tiger
+♥list⟦1⟧ = snake
+♥dialog ♥list
+♥list = cat❚dog❚lion❚tiger
+♥list⟦⟧ = 200
+dialog ♥list
+♥test = ♥list⟦5⟧+10
+dialog ♥test
