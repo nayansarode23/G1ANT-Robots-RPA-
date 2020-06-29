@@ -1,0 +1,4 @@
+♥apiKey = Enter your apikey here
+♥serverUri = https://gateway-lon.watsonplatform.net/speech-to-text/api
+watson.speechtotext C:\Test\speech.mp3 apikey ♥apiKey serveruri ♥serverUri
+dialog ♥result
