@@ -1,0 +1,4 @@
+♥sourceFile = ♥environment⟦USERPROFILE⟧\Documents\test.docx
+♥destinationFile = ♥environment⟦USERPROFILE⟧\Documents\test.pdf
+word.open ♥sourceFile
+word.export ♥destinationFile
