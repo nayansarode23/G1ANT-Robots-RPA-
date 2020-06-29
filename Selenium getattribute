@@ -1,0 +1,4 @@
+selenium.open chrome url youtube.com
+selenium.getattribute class search content by id result ♥attribute
+dialog ♥attribute
+selenium.close
