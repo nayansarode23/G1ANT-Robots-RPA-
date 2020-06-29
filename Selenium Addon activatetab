@@ -1,0 +1,9 @@
+selenium.open chrome url g1ant.com
+selenium.newtab facebook.com
+selenium.newtab google.com
+dialog ‴Now let's go back to the first tab‴
+selenium.activatetab search g1ant by url
+selenium.open chrome url https://www.cia.gov/library/publications/the-world-factbook/geos/dj.html
+selenium.click search btn-print by class
+keyboard ⋘CTRL+P⋙
+keyboard ⋘ENTER⋙
