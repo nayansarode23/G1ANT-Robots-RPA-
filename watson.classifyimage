@@ -1,0 +1,4 @@
+♥apiKey = Enter your apikey here
+♥serverUri = https://gateway.watsonplatform.net/visual-recognition/api/v3/classify?version=2018-03-19
+watson.classifyimage C:\Test\image.jpg apikey ♥apiKey serveruri ♥serverUri
+dialog ♥result
