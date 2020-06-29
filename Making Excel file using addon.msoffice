@@ -1,0 +1,10 @@
+addon msoffice version 4.104.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+excel.open
+excel.addsheet ‴Data1‴
+excel.setvalue ‴g1ant‴ row 1 colindex 1
+excel.addsheet ‴Interns‴
+excel.setvalue ‴Applicant Names‴ row 1 colname ‴A‴
+excel.activatesheet ‴Data1‴
+excel.save C:/Test/g1ant.xlsx 
