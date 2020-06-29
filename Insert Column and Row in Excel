@@ -1,0 +1,13 @@
+addon msoffice version 4.104.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+excel.open path ♥environment⟦USERPROFILE⟧\Desktop\StudentsData.xlsx 
+excel.setvalue ‴RPA‴ row 3 colindex 1
+excel.setvalue ‴G1ANT‴ row 4 colindex 2
+excel.insertcolumn colname A where after
+dialog ‴Column inserted!‴
+keyboard ‴Remember, remember!‴⋘DOWN⋙
+keyboard ‴the fifth of November⋘DOWN⋙Is A Event!‴
+delay 2
+excel.insertrow row 2 where below
+dialog ‴Row inserted!‴
