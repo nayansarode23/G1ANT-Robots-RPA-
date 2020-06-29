@@ -1,0 +1,8 @@
+♥outlookInboxFolder = john.doe@g1ant.com\Inbox
+
+outlook.open display false
+outlook.getfolder ♥outlookInboxFolder result ♥inboxFolder errormessage ‴Cannot find folder "♥outlookInboxFolder"‴
+♥unreademails = ♥inboxFolder⟦unread⟧
+foreach ♥email in ♥unreademails
+  dialog ‴New message from ♥email⟦from⟧ with subject: "♥email⟦subject⟧"‴
+end
